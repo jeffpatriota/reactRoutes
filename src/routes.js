@@ -9,9 +9,12 @@ import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import Contato from './pages/Contato';
 
+import Header from './components/Header';
+
 function RoutesApp (){
     return(
         <BrowserRouter>
+        <Header/>
         <Routes>
         {/* //path vai te informar o caminho "no caso / é o caminho Home"
         //e o element é o que redenriza "no caso eu chamei o <Home/> " */}
